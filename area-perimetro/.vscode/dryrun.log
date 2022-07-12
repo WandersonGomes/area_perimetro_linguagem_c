@@ -1,0 +1,9 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/lobonegro/Desktop/area-perimetro'
+gcc -c area_perimetro.c
+gcc -c programa.c
+gcc -o executavel programa.o area_perimetro.o -lm
+rm *.o
+./executavel
+make: Leaving directory '/home/lobonegro/Desktop/area-perimetro'
+ 
